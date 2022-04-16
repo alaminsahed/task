@@ -1,13 +1,13 @@
 import React from 'react';
 import FlotCard from '../components/FlotCard';
 import Nav from '../components/Nav';
+import ReactPost from './ReactPost';
 
 const Home = () => {
     return (
         <div>
-            <header className='sticky'>
-                <Nav />
-            </header>
+            <Nav />
+            <ReactPost />
             <FlotCard />
         </div>
     );

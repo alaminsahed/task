@@ -3,7 +3,7 @@ import React from 'react';
 const FlotCard = () => {
     return (
         <div>
-            <h1>card</h1>
+            <h1>Fcard</h1>
         </div>
     );
 };
