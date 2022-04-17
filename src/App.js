@@ -16,7 +16,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/award" element={<Award />} />
         <Route path='/:data' element={<Post />} />
-        <Route path='/details/:id' element={<PostDetails />} />
+        <Route path='/details/:data' element={<PostDetails />} />
       </Routes>
     </BrowserRouter>
   );

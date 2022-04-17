@@ -7,7 +7,7 @@ import { useParams } from "react-router-dom";
 
 const Post = () => {
     const params = useParams();
-    console.log("params", params);
+    // console.log("params", params);
     const reactUrl = `https://www.reddit.com/r/${params.data}.json`;
     const reactPost = useFetch(reactUrl);
     const { response, error, isLoading } = reactPost;
