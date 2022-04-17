@@ -1,10 +1,14 @@
 import React from 'react';
 import Card from '../components/Card';
+import Nav from '../components/Nav';
 import useFetch from '../customHooks/useFetch';
+import { useParams } from "react-router-dom";
 
 
-const ReactPost = () => {
-    const reactUrl = 'https://www.reddit.com/r/reactjs.json';
+const Post = () => {
+    const params = useParams();
+    console.log("params", params);
+    const reactUrl = `https://www.reddit.com/r/${params.data}.json`;
     const reactPost = useFetch(reactUrl);
     const { response, error, isLoading } = reactPost;
     if (error) {
@@ -13,6 +17,7 @@ const ReactPost = () => {
 
     return (
         <div>
+            <Nav />
             {
                 isLoading ? <h1>Loading...</h1> : <Card posts={response} />
             }
@@ -20,4 +25,4 @@ const ReactPost = () => {
     );
 };
 
-export default ReactPost;
+export default Post;

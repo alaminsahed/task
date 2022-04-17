@@ -6,7 +6,8 @@ import {
 } from "react-router-dom";
 import Home from './pages/Home';
 import Award from './pages/Award';
-import ReactPost from './pages/ReactPost';
+import Post from './pages/Post';
+import PostDetails from './pages/PostDetails';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/award" element={<Award />} />
-        <Route path='/react' element={<ReactPost />} />
+        <Route path='/:data' element={<Post />} />
+        <Route path='/details/:id' element={<PostDetails />} />
       </Routes>
     </BrowserRouter>
   );
