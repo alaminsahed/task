@@ -3,6 +3,7 @@ import Card from '../components/Card';
 import Nav from '../components/Nav';
 import useFetch from '../customHooks/useFetch';
 import { useParams } from "react-router-dom";
+import FlotCard from '../components/FlotCard';
 
 
 const Post = () => {
@@ -21,6 +22,9 @@ const Post = () => {
             {
                 isLoading ? <h1>Loading...</h1> : <Card posts={response} />
             }
+            <div className='absolute right-0 bottom-5'>
+                <FlotCard />
+            </div>
         </div>
     );
 };

@@ -1,13 +1,11 @@
 import React from 'react';
-import FlotCard from '../components/FlotCard';
 import Nav from '../components/Nav';
 
 
 const Home = () => {
     return (
-        <div>
+        <div className='h-screen w-auto relative'>
             <Nav />
-            <FlotCard />
         </div>
     );
 };
