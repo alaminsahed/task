@@ -7,7 +7,7 @@ const AwardCard = ({ movie, handleNomination }) => {
 
     return (
         <div className='mt-3 cursor-pointer m-2' onClick={() => handleNomination(movie)}>
-            <div className={highlight ? "max-w-sm  border border-black text-center shadow-md md:h-20 bg-red-300" : "max-w-sm  border border-black text-center shadow-md md:h-64 bg-sky-300"}>
+            <div className={highlight ? "max-w-sm  border border-black text-center shadow-md md:h-64 bg-red-300" : "max-w-sm  border border-black text-center shadow-md md:h-64 bg-sky-300"}>
                 <div className="p-5">
 
                     <h5 className="mb-2 text-md font-bold tracking-tight text-gray-900">{movie.Title}</h5>
