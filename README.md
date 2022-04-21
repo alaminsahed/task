@@ -4,7 +4,8 @@
 
 * Download or Clone the repo
 * Create `.env` file
-*`.env` example
+
+* `.env` example
 ```
 REACT_APP_API_KEY=2453c35d
 ```
@@ -27,8 +28,12 @@ npm start
 
 * Other pages with a floating card
 * Floating card only change the data after 1 min
+* Click on the card, you can find the details information
 
-<img width="1678" alt="Screen Shot 2022-04-21 at 12 24 40 PM" src="https://user-images.githubusercontent.com/57568263/164388312-add9b4ce-d590-4208-939d-a29c690967df.png">
+<img width="1678" alt="Screen Shot 2022-04-21 at 12 28 25 PM" src="https://user-images.githubusercontent.com/57568263/164392846-6644f575-ce30-4dde-b5b8-207f56dfd01b.png">
+
+<img width="1678" alt="Screen Shot 2022-04-21 at 12 59 28 PM" src="https://user-images.githubusercontent.com/57568263/164393230-b4d81cce-6c90-4664-945b-e62cbdf4d0ec.png">
+
 
 
 <b> SearchPage </b>
@@ -42,6 +47,7 @@ npm start
 
 
 <img width="1678" alt="Screen Shot 2022-04-21 at 12 35 42 PM" src="https://user-images.githubusercontent.com/57568263/164389808-93887bed-415d-4f6b-b5d5-c29fdd956533.png">
+
 
 <b>Award Page</b>
 * Pleae go with this url `http://localhost:4000/award`
