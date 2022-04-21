@@ -3,8 +3,7 @@ import React from 'react';
 const AwardCard = ({ movie, handleNomination }) => {
     const [highlight, setHightlight] = React.useState(false);
 
-    // console.log("???????", movie);
-    // console.log("++++", highlight);
+
 
     return (
         <div className='mt-3 cursor-pointer m-2' onClick={() => handleNomination(movie)}>

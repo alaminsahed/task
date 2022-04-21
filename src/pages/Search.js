@@ -25,12 +25,9 @@ const Search = () => {
         localStorage.setItem("secondCat", JSON.stringify(secondCat));
     }, [firstCat, secondCat])
 
-    // if (firstCat.length === 6 && secondCat.length === 6) {
-    //     localStorage.setItem("firstCat", JSON.stringify(firstCat));
-    //     localStorage.setItem("secondCat", JSON.stringify(secondCat));
-    // }
 
-    console.log(firstCat, secondCat);
+
+
 
     return (
         <div>
