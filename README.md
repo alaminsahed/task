@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+## Task
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# How to install
 
-## Available Scripts
+* Download or Clone the repo
+* Create `.env` file
+*`.env` example
+```
+REACT_APP_API_KEY=2453c35d
+```
+* Run this command
+```
+npm install
+```
+then
+```
+npm start
+```
 
-In the project directory, you can run:
+# How to operate this project
 
-### `npm start`
+<b> HomePage </b>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* User can Navigate from Homepage to other pages
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<img width="1678" alt="Screen Shot 2022-04-21 at 12 24 40 PM" src="https://user-images.githubusercontent.com/57568263/164387813-96e767fc-5a88-49ca-b12d-110e78f1e0e3.png">
 
-### `npm test`
+* Other pages with a floating card
+* Floating card only change the data after 1 min
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img width="1678" alt="Screen Shot 2022-04-21 at 12 24 40 PM" src="https://user-images.githubusercontent.com/57568263/164388312-add9b4ce-d590-4208-939d-a29c690967df.png">
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<b> SearchPage </b>
+* Please go with this url `http://localhost:4000/search`
+* Search Your movie from search bar
+* You can select max 6 movies for each categorey.
+* User can not select a movie twice for same category. A alert message warn the user
+* After selected 6 movies for each category, a alert message also warn you
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img width="1678" alt="Screen Shot 2022-04-21 at 12 34 29 PM" src="https://user-images.githubusercontent.com/57568263/164389741-fcaeace0-56fb-4513-a437-261aa1e32cd1.png">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+<img width="1678" alt="Screen Shot 2022-04-21 at 12 35 42 PM" src="https://user-images.githubusercontent.com/57568263/164389808-93887bed-415d-4f6b-b5d5-c29fdd956533.png">
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<b>Award Page</b>
+* Pleae go with this url `http://localhost:4000/award`
+* Your selected movies are shown in this page for nomination
+* You can select only one movies from each category
+* If you click the select button, card will be high lighted
+* There is a button in the bottom named `Submit Ballot Button`. When click in it a success modal pops up
+* You can close the modal to click on the `x` button
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img width="1678" alt="Screen Shot 2022-04-21 at 12 47 16 PM" src="https://user-images.githubusercontent.com/57568263/164392208-8b6161f0-b0f6-40b9-8cbf-5ee52f8f19cf.png">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Demo](https://task1-ashen.vercel.app/)
