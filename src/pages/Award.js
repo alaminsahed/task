@@ -40,7 +40,7 @@ const Award = () => {
             <h1 className='text-center mt-2'>AWARDS 2021</h1>
             <div>
                 <div className='bg-slate-600 m-2'>
-                    <h1 className='ml-2 text-md  md:text-lg text-white'>Category 1</h1>
+                    <h1 className='ml-2 text-md  lg:text-2xl text-white'>Category 1</h1>
                 </div>
                 <div className='grid md:grid-cols-3 gap-1'>
                     {
