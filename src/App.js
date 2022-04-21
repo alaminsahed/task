@@ -9,6 +9,7 @@ import Award from './pages/Award';
 import Post from './pages/Post';
 import PostDetails from './pages/PostDetails';
 import Search from './pages/Search';
+import "@material-tailwind/react/tailwind.css";
 
 function App() {
   return (
