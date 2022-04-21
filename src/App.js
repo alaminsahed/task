@@ -8,6 +8,7 @@ import Home from './pages/Home';
 import Award from './pages/Award';
 import Post from './pages/Post';
 import PostDetails from './pages/PostDetails';
+import Search from './pages/Search';
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
         <Route path="/award" element={<Award />} />
         <Route path='/:data' element={<Post />} />
         <Route path='/details/:data' element={<PostDetails />} />
+        <Route path='/search' element={<Search />} />
+        <Route />
       </Routes>
     </BrowserRouter>
   );
