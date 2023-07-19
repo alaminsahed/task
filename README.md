@@ -1,4 +1,6 @@
-## Task
+## Interview Task
+
+## This task is an interview task as a React.js developer
 
 # How to install
 
